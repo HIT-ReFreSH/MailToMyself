@@ -1,80 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>
-			net5
-		</TargetFramework>
-		<PackageId>
-			MailToMyself
-		</PackageId>
-		<Authors>
-			HitRefresh
-		</Authors>
-		<OutputType>
-			Library
-		</OutputType>
-		<AssemblyName>
-			MailToMyself
-		</AssemblyName>
-		<RootNamespace>
-			HitRefresh.MailToMyself
-		</RootNamespace>
-		<GenerateDocumentFile>
-			true
-		</GenerateDocumentFile>
-		<PackageRequireLicenseAcceptance>
-			true
-		</PackageRequireLicenseAcceptance>
-		<Company>
-			Hit-ReFreSH
-		</Company>
-		<PackageProjectUrl>
-			https://github.com/HIT-ReFreSH/MailToMyself
-		</PackageProjectUrl>
-		<RepositoryUrl>
-			https://github.com/HIT-ReFreSH/MailToMyself.git
-		</RepositoryUrl>
-		<RepositoryType>
-			Github
-		</RepositoryType>
-		<Version>
-			0.1.0
-		</Version>
-		<PackageLicenseExpression>
-			MIT
-		</PackageLicenseExpression>
-		<Nullable>
-			enable
-		</Nullable>
-		<LangVersion>
-			9.0
-		</LangVersion>
-		<PublishRepositoryUrl>
-			true
-		</PublishRepositoryUrl>
-		<DocumentationFile>
-			bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml
-		</DocumentationFile>
-		<PackageReleaseNotes>
-			v0.1.0 Init.
-		</PackageReleaseNotes>
-		<Description>
-			Send email to yourself. See details https://github.com/HIT-ReFreSH/MailToMyself.
-		</Description>
-		<Copyright>
-			Copyright (c) 2019-2021 ReFreSH
-		</Copyright>
-		<PackageReadmeFile>
-			README.md
-		</PackageReadmeFile>
-		<GeneratePackageOnBuild>
-			true
-		</GeneratePackageOnBuild>
-		<PackageRequireLicenseAcceptance>
-			true
-		</PackageRequireLicenseAcceptance>
-		<NeutralLanguage>
-			zh-CN
-		</NeutralLanguage>
+		<TargetFramework>net5</TargetFramework>
+		<PackageId>MailToMyself</PackageId>
+		<Authors>HitRefresh</Authors>
+		<OutputType>Library</OutputType>
+		<AssemblyName>MailToMyself</AssemblyName>
+		<RootNamespace>HitRefresh.MailToMyself</RootNamespace>
+		<GenerateDocumentFile>true</GenerateDocumentFile>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Company>Hit-ReFreSH</Company>
+		<PackageProjectUrl>https://github.com/HIT-ReFreSH/MailToMyself</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/HIT-ReFreSH/MailToMyself.git</RepositoryUrl>
+		<RepositoryType>Github</RepositoryType>
+		<Version>0.4.1</Version>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Nullable>enable</Nullable>
+		<LangVersion>9.0</LangVersion>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+		<PackageReleaseNotes>v0.1.0：Init.</PackageReleaseNotes>
+		<Description>Send email to yourself. See details https://github.com/HIT-ReFreSH/MailToMyself.</Description>
+		<Copyright>Copyright (c) 2019-2021 ReFreSH</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<NeutralLanguage>zh-CN</NeutralLanguage>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Include="../README.md" Pack="true" PackagePath="/" />
