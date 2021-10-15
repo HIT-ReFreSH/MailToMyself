@@ -19,7 +19,7 @@ jobs:
         with:
           dotnet-version: 5.0.x
       - name: build project
-        run: dotnet build -c release HitRefresh.MailToMyself.sln
+        run: dotnet build -c release src/HitRefresh.MailToMyself.csproj
       # Publish
       - name: publish on version change
         uses: rohith/publish-nuget@v2
